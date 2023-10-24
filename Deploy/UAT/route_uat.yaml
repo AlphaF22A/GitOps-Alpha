@@ -1,0 +1,12 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: nginx-sample-alpha-dev
+spec:
+  to:
+    kind: Service
+    name: nginx-sample-alpha-dev
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  wildcardPolicy: None
