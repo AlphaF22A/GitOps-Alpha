@@ -4,16 +4,16 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-sample-alpha
+      app: nginx-sample-alpha-dev
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: nginx-sample-alpha
-        deployment: nginx-sample-alpha
+        app: nginx-sample-alpha-dev
+        deployment: nginx-sample-alpha-dev
     spec:
       containers:
-        - name: nginx-sample-alpha
+        - name: nginx-sample-alpha-dev
           image: >-
             image-registry.openshift-image-registry.svc:5000/user1-argocd/nginx-sample-alpha@sha256:8087b1be391f6de5e2dd9e7e1b7b014b1fa28405edadfa1059ddc4b823726fac
           ports:
