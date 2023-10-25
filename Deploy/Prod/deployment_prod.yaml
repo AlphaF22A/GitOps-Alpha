@@ -18,7 +18,7 @@ spec:
       containers:
         - name: nginx-sample-alpha-prod
           image: >-
-            image-registry.openshift-image-registry.svc:5000/user1-argocd/nginx-sample-alpha@sha256:8087b1be391f6de5e2dd9e7e1b7b014b1fa28405edadfa1059ddc4b823726fac
+            image-registry.openshift-image-registry.svc:5000/openshift-gitops/nginx-sample@sha256:b1ea03751e6343b34b70852cbe8f7d81f25debabd82628fc28c62b3b75ec0b71
           ports:
             - containerPort: 8080
               protocol: TCP
