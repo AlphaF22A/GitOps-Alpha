@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-sample-alpha-dev
+  namespace: openshift-gitops
 spec:
   ports:
     - name: 8080-tcp
