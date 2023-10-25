@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace:
+    namespace: dev
     server: 'https://kubernetes.default.svc'
   source:
     path: Deploy/Dev
