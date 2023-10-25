@@ -1,7 +1,8 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: nginx-sample-alpha-dev
+  name: nginx-sample-alpha-uat
+  namespace: openshift-gitops
 spec:
   to:
     kind: Service
