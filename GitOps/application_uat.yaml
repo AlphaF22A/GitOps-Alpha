@@ -9,8 +9,8 @@ spec:
     namespace: uat
     server: https://kubernetes.default.svc
   source:
-    path: /Deploy/UAT
-    repoURL: https://github.com/AlphaF22A/GitOps-Alpha
+    path: Deploy/UAT
+    repoURL: https://github.com/AlphaF22A/GitOps-Alpha/
     targetRevision: HEAD
   sources: []
   project: default
