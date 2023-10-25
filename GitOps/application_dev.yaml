@@ -9,8 +9,8 @@ spec:
     namespace: dev
     server: 'https://kubernetes.default.svc'
   source:
-    path: Deploy/Dev
-    repoURL: https://github.com/AlphaF22A/GitOps-Alpha/
+    path: /Deploy/Dev
+    repoURL: https://github.com/AlphaF22A/GitOps-Alpha
     targetRevision: HEAD
   sources: []
   project: default
