@@ -1,5 +1,8 @@
 kind: Deployment
 apiVersion: apps/v1
+metadata:
+  name: nginx-sample-alpha-dev
+  namespace: user1-argocd
 spec:
   replicas: 1
   selector:
