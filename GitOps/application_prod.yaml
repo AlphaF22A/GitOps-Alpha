@@ -9,8 +9,8 @@ spec:
     namespace: prod
     server: 'https://kubernetes.default.svc'
   source:
-    path: /Deploy/Prod
-    repoURL: https://github.com/AlphaF22A/GitOps-Alpha
+    path: Deploy/Prod
+    repoURL: https://github.com/AlphaF22A/GitOps-Alpha/
     targetRevision: HEAD
   sources: []
   project: default
