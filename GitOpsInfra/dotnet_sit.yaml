@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: dotnet-dev-applicationset
+  name: dotnet-sit-applicationset
 spec:
   generators:
   - list:
@@ -14,10 +14,10 @@ spec:
     spec:
       destination:
         name: ''
-        namespace: dev
+        namespace: sit
         server: '{{url}}'
       source:
-        path: deploy/app-dotnet/overlays/prod
+        path: deploy/app-dotnet/overlays/sit
         repoURL: https://github.com/secangkirkopipanas/todo-application-infra/
         targetRevision: HEAD
       sources: []
