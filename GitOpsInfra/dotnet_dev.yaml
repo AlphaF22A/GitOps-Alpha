@@ -14,7 +14,7 @@ spec:
     spec:
       destination:
         name: ''
-        namespace: ''
+        namespace: dev
         server: '{{url}}'
       source:
         path: deploy/app-java/overlays/dev
