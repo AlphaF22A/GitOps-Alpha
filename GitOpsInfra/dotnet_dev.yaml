@@ -17,8 +17,8 @@ spec:
         namespace: dev
         server: '{{url}}'
       source:
-        path: Deploy/Dev
-        repoURL: https://github.com/AlphaF22A/GitOps-Alpha
+        path: deploy/app-dotnet/overlays/dev
+        repoURL: https://github.com/secangkirkopipanas/todo-application-infra/
         targetRevision: HEAD
       sources: []
       project: default
