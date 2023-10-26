@@ -17,7 +17,7 @@ spec:
         namespace: sit
         server: '{{url}}'
       source:
-        path: deploy/app-dotnet/overlays/sit
+        path: deploy/app-java/overlays/sit
         repoURL: https://github.com/secangkirkopipanas/todo-application-infra/
         targetRevision: HEAD
       sources: []
