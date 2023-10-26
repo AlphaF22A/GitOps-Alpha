@@ -17,7 +17,7 @@ spec:
         namespace: dev
         server: '{{url}}'
       source:
-        path: deploy/app-dotnet/overlays/dev
+        path: deploy/app-java/overlays/dev
         repoURL: https://github.com/secangkirkopipanas/todo-application-infra/
         targetRevision: HEAD
       sources: []
