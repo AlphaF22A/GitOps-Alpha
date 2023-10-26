@@ -14,7 +14,7 @@ spec:
     spec:
       destination:
         name: ''
-        namespace: dev
+        namespace: prod
         server: '{{url}}'
       source:
         path: deploy/app-dotnet/overlays/prod
